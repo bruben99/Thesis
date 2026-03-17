@@ -1,10 +1,10 @@
 version: 1
 project:
-  title: TU Delft's JB Starterkit
+  title: 	Freeform-lens surface retrieval using ray optics
   # description:
   keywords: [Jupyter Book, Open Science, TU Delft, Starterkit]
 
-  github: https://github.com/bas210799-sketch/Thesis
+  github: https://github.com/bruben99/Thesis
   date: 2026-01-31
   
     # used to load /reuse materials from other repositories
