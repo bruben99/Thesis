@@ -10,6 +10,8 @@ First to quantify an amount of light hitting a specific object we Radiance or Ir
 
 The behavior of the propagation of light and interaction with free form lenses is best represented by the Maxwell's equations which describe the light as Waves [source]. However in the scope of this thesis, the interaction objects and propagating distances are much bigger in size than the wavelength of the light. This means that the light can be described by the ray optics model[source]. In ray optics some properties like polarization and diffraction are neglected. This makes the computation and modeling of ray optics way easier than the wave model of light.  This model describes the propagation of light along rays. How the rays are bending is described by the Eikonal equation[source: geometrical optics].
 
+[//]: # (pipo2)
+
 $$
 \label{Eikonal}
 \frac{d}{ds}\left( n(\vec{r},\lambda)\frac{d\vec{r}}{ds} \right) = \nabla n(\vec{r},\lambda)
