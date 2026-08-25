@@ -4,7 +4,7 @@ To retrieve the surface of a freeform lens, theory is needed to understand the b
 ## Radiance/Irradiance
 
 First to quantify an amount of light hitting a specific object we Radiance or Irradiance is used. These are the
-
+[//]: # (pipo)
 
 ## Ray-Tracing
 
