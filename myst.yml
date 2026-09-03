@@ -36,9 +36,5 @@ site:
     logo_dark: style/tudelft-dark.png
     hide_authors: true
     style: style/custom.css
-  actions:
-    # - title: PDF
-    #   url: ./exports/report_tex.pdf
-    - title: Typst PDF
-      url: ./exports/report_typst.pdf
-      static: true
+  parts: 
+    navbar_end:   style/navbar_end.md

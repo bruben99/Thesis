@@ -27,7 +27,7 @@ $$
 When a ray encounters a different media with a different index of refraction $n$, the ray will split up into a reflected ray and transmitted ray. 
 
 ```{figure} figures/Simple_reflection_refraction model.png
-:label: Simple refraction
+:label: Simple_refraction
 :width: 70%
 :align: center
 
