@@ -17,14 +17,22 @@ $$
 
 In this equation, $ds$ is the infinitesimal arc length of the ray path, $n(\vec{r},\lambda)$ is the index of refraction where $\vec{r}$ is the spatial coordinate and $\lambda$ the wavelength of the light. Thus, the index of refraction is both dependent on the medium the light is going through and the wavelength of the light itself.
 
-In the scope of this project, only homogeneous media are considered with a constant refractive index. It follows that in equation {numref}`Eikonal`, the right-hand term $\nabla n(\vec{r},\lambda)=0$. This means that the only non-trivial solutions to equation are linear equations, so in other words the rays will follow straight lines. With this known, rays can be described using 6 coordinates of which 3 are the position coordinates of a point $\vec{r_0}$ that the ray will pass through and the other 3 the direction cosines of the direction vector $\vec{a}$.
+In the scope of this project, only homogeneous media are considered with a constant refractive index. It follows that in equation {numref`Eikonal`}, the right-hand term $\nabla n(\vec{r},\lambda)=0$. This means that the only non-trivial solutions to equation are linear equations, so in other words the rays will follow straight lines. With this known, rays can be described using 6 coordinates of which 3 are the position coordinates of a point $\vec{r_0}$ that the ray will pass through and the other 3 the direction cosines of the direction vector $\vec{a}$.
 
 $$
 \label{Ray}
 \vec{r} = \vec{r_0}+s\vec{a}
 $$
 
-When a ray encounters a different media with a different index of refraction $n$, the ray will split up into a reflected ray and transmitted ray. 
+When a ray encounters a different media with an index of refraction $n$, the ray will split up into a reflected ray and transmitted ray. The direction of the rays are determined by Snells-Descartes Law{numref'Snells-Law'}. These directions are based on the principle of Fermat[source] which states that light will always travel between two points along the path that requires the least amount of time.
+
+$$
+\label{Snells-Law}
+n_2 \vec{a_2} \times \vec{\gamma} = n_1 \vec{a_1} \times \vec{\gamma}
+$$
+
+Here, $n_i$ is the index of the refraction for medium $i$, $\vec{a_i}$ is the direction vector of the ray in each medium and $\vec{\gamma}$ is the unit vector normal to the boundary of the surface at the intersection point between the two mediums.
+
 
 ```{figure} figures/Simple_reflection_refraction model.png
 :label: Simple refraction
@@ -34,9 +42,11 @@ When a ray encounters a different media with a different index of refraction $n$
 With a 
 ```
 
-What is ray Tracing, when is it valid
+What is ray Tracing, when is it valid 
 ### Mitsuba
 What is Mitsuba? explain forward/backward ray tracing
+
+For the simulations Mitsuba is used, Mitsuba is a raytracing software 
 
 
 ### Differential Ray Tracing
