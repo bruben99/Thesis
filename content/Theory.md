@@ -35,7 +35,7 @@ Here, $n_i$ is the index of the refraction for medium $i$, $\vec{a_i}$ is the di
 
 
 ```{figure} figures/Simple_reflection_refraction model.png
-:label: Simple refraction
+:label: Simple_refraction
 :width: 70%
 :align: center
 
